@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 
+st.header('Revenue Prediction')
 temp = st.number_input('Input temperature', value=20)
 if st.button('Predict'):
   st.caption('Predict Revenue')
